@@ -11,3 +11,66 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.thuKinh{
+  background-image: url(../public/img/glasses/background.jpg);
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+.thuKinh .title{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  color: whitesmoke;
+  padding: 20px;
+  display: block;
+  height: 55px;
+  line-height: 15px;
+}
+.modal-left,.modal-right{
+  background-image: url(../public/img/glasses/model.jpg);
+    background-size: cover;
+    height: 440px;
+    width: 340px;
+    position: relative;
+    z-index: 10;
+}
+.thuKinh-product{
+  padding-top: 80px;
+}
+.modal-left .glasses-info{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  background-color: rgba(255, 166, 0, 0.407);
+  width: 100%;
+  color: whitesmoke;
+  padding: 20px;
+  display: block;
+  height: 140px;
+  line-height: 40px;
+}
+.modal-left img{
+  position: absolute;
+  top: 22%;
+  left: 18%;
+  width: 234px;
+  height: 93px;
+  opacity: 0.9;
+}
+.modal-left p{
+  line-height: 20px;
+}
+.arrGlasses{
+ background-color: white;
+ margin-top: 50px;
+ padding-top: 10px;
+}
+.arrGlasses img{
+  width: 100%;
+  padding: 5px;
+  border: 1px solid black;
+}
